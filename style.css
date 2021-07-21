@@ -1,0 +1,31 @@
+:root {
+    --main-bg-color:#94829A;
+    --main-border-color:#915E74;
+    --main-text-color:#D9CCAD;
+    --main-button-color:#4F4A73;
+}
+
+.body {
+    background-color:var(--main-bg-color);
+}
+.wrapper {
+    text-align: center;
+    margin-top: 50%;
+}
+.button {
+    border-style:solid;
+    height: 150px;
+    width: 150px;
+    background-color:var(--main-button-color);
+    color: var(--main-text-color);
+    border-color: var(--main-border-color);
+
+    margin: auto;
+    position: relative;
+    display:table-row;
+    font-size: 20px;
+}
+.h1{
+    color: var(--main-text-color);
+    text-align: center;
+}
