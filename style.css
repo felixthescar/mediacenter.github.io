@@ -28,7 +28,7 @@
   padding-bottom: var(--padding-buttons);
   width:15rem;
   height:7rem;
-  color: #9d7dd1;
+  color: #8b8ea9;
   background:var(--main-button-color);
   font-size:1.75rem;
   font-family: ٩ (╬ʘ益ʘ╬) ۶;
@@ -59,7 +59,7 @@
 }
 .homebtn {
   background: #2b2f3a;
-  color: white;
+  color: #8b8ea9;
   width: 2rem;
   height:2rem;
   font-size: 2rem;
@@ -68,11 +68,13 @@
 }
 .homebtn:hover {
   opacity: 1;
+  color: #9d7dd1;
 }
 .inputBox:hover,.inputBox:focus {
   opacity: 1;
 }
 .button:hover,.button:focus {
+  color: #9d7dd1;
   opacity: 1;
   transform: translateY(-.2em);
 }
