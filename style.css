@@ -21,6 +21,7 @@
     transform: translate(-50%, -50%);
 }
 .button{
+  opacity: .925;
   border: none;
   border-radius:1.5rem;
   padding-top: var(--padding-buttons);
@@ -38,6 +39,7 @@
   text-decoration: none;
 }
 .inputBox {
+  opacity: .9;
   border-style: none;
   background: #282b37;
   line-height: 1.5;
@@ -54,4 +56,23 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+.homebtn {
+  background: #2b2f3a;
+  color: white;
+  width: 2rem;
+  height:2rem;
+  font-size: 2rem;
+  border: none;
+  opacity: .9;
+}
+.homebtn:hover {
+  opacity: 1;
+}
+.inputBox:hover,.inputBox:focus {
+  opacity: 1;
+}
+.button:hover,.button:focus {
+  opacity: 1;
+  transform: translateY(-.2em);
 }
