@@ -3,6 +3,8 @@
     --main-border-color:#915E74;
     --main-text-color:#7d809d;
     --main-button-color:#282b37;
+
+    --padding-buttons: 35px;
 }
 .body {
     background-image: url("wallpaper.png");
@@ -19,21 +21,25 @@
     transform: translate(-50%, -50%);
 }
 .button{
-  border-radius:15px;
-  padding:12px;
-  width:200px;
-  height:105px;
-  font-family: "Lucida Console", "Courier New", monospace;
+  border: none;
+  border-radius:1.5rem;
+  padding-top: var(--padding-buttons);
+  padding-bottom: var(--padding-buttons);
+  width:15rem;
+  height:7rem;
   color: #9d7dd1;
   background:var(--main-button-color);
   font-size:1.75rem;
+  font-family: ٩ (╬ʘ益ʘ╬) ۶;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
 }
 .no-underline {
   text-decoration: none;
 }
 .inputBox {
   border-style: none;
-  background: var(--body-bg-color);
+  background: #282b37;
   line-height: 1.5;
   color: #9d7dd1;
   font-size: 25px;
@@ -41,7 +47,7 @@
   width: 520px;
   padding: 12px;
   text-align: center;
-  border-radius: 1px;
+  border-radius: 1rem;
   box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
   position: absolute;
   top: 20%;
